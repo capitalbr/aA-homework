@@ -66,12 +66,15 @@ class Map_class
     end
 
     def delete(key)
-        self.mapper.reject do |ele|
+        new_arr = self.mapper.reject do |ele|
             ele[0] == key
         end
+        @mapper = new_arr
     end
 
 
 
 end
   
+
+
