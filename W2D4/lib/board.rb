@@ -51,7 +51,7 @@ class Board
      
     end
     render
-    next_turn((start_pos+l)%14)
+    next_turn((start_pos + i - 1)%14)
   end
 
   def next_turn(ending_cup_idx)
