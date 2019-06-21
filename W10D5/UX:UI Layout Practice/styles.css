@@ -1,0 +1,55 @@
+header {
+  height: 50px;
+      border-style: solid;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-color: gray;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+.auth {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 270px;
+    vertical-align: middle;
+}
+.auth2 {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 290px;
+  padding-top: 0px,
+  
+
+}
+
+header div a{
+  margin-left: 20px
+}
+
+.top {
+     display: flex;
+    justify-content: space-around;
+}
+.div1{
+      display: grid;
+    align-content: center;
+
+}
+div h1 {
+  
+      display: flex;
+    width: 500px;
+    height: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 10px;
+ 
+}
+
+div img {
+  display: flex;
+  height: 400px;
+  width: 900px;
+}
